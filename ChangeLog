@@ -1,0 +1,16 @@
+2019-12-14 Luca Sartore <drwolf85@gmail.com>
+    * DESCRIPTION (Version): New version is 0.0.3
+    * DESCRIPTION (Date): New date is 2019-12-14
+    * DESCRIPTION (Description): Included a reference to expalin the 
+        methodology implemented in the package
+    * README.md: Fixed a broken url
+    * COPYING: Included the full text of the GPL-3 license
+
+2019-11-20 Luca Sartore <drwolf85@gmail.com>
+    * DESCRIPTION (Version): New version is 0.0.2
+    * DESCRIPTION (Date): New date is 2019-11-20
+    * DESCRIPTION (Description): The text has been rephrased to
+        remove the name of the package
+
+2019-11-19 Luca Sartore <drwolf85@gmail.com>
+    * The dual package VERSION 0.0.1 has been created

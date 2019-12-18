@@ -1,0 +1,51 @@
+#@useDynLib dual, .registration = TRUE
+#' @importFrom methods is new
+#' @importFrom stats dnorm pchisq pnorm
+#'
+#' @name dual-package
+#' 
+#' @docType package
+#' 
+#' @encoding UTF-8
+#' 
+#' @title
+#' Automatic Differentiation with Dual Numbers
+#' 
+#' @description
+#' \if{html}{\figure{logo.svg}{options: align='right'}}
+#' This package provides mathematical functions that are able to handle computations with dual numbers. Dual numbers are mainly used to implement automatic differentiation. The package is useful to calculate exact derivatives in R without providing hand-coded gradient functions.  Kisil (2007) <arXiv:0707.4024>
+#' 
+#' @details
+#' \tabular{ll}{
+#' Package: \tab dual\cr
+#' Type: \tab Package\cr
+#' Version: \tab 0.0.3\cr
+#' Date: \tab 2019-12-14\cr
+#' License: \tab GPL-3\cr
+#' }
+#' 
+#' For a complete list of exported functions, use \code{library(help = "dual")}.
+#'
+#' @author
+#' Luca Sartore \email{drwolf85@@gmail.com}
+#'
+#' Maintainer: Luca Sartore \email{drwolf85@@gmail.com}
+#' 
+#' @references
+#' Baydin, A. G., Pearlmutter, B. A., Radul, A. A., & Siskind, J. M. (2018). Automatic differentiation in machine learning: a survey. \emph{Journal of Marchine Learning Research}, \bold{18}, 1-43.
+#' 
+#' Cheng, H. H. (1994). Programming with dual numbers and its applications in mechanisms design. \emph{Engineering with Computers}, \bold{10}(4), 212-229.
+#'
+#' @keywords dual autodiff differentiation numeric
+#' 
+#' @examples
+#' library(dual)
+#' x <- dual(f = 1.5, grad = c(1, 0, 0))
+#' y <- dual(f = 0.5, grad = c(0, 1, 0))
+#' z <- dual(f = 1.0, grad = c(0, 0, 1))
+#' exp(z - x) * sin(x)^y / x
+#' 
+#' a <- dual(1.1, grad = c(1.2, 2.3, 3.4, 4.5, 5.6))
+#' 0.5 * a^2 - 0.1
+#' 
+NULL
