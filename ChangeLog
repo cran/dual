@@ -1,3 +1,10 @@
+2022-08-31 Luca Sartore <drwolf85@gmail.com>
+    * DESCRIPTION (Version): New version is 0.0.4
+    * DESCRIPTION (Date): New date is 2022-08-31
+    * DESCRIPTION (Description): Updated reference link to HTTPS
+    * man/dual-package.Rd: Edited the version number, date and HTML5 
+        conforming features
+
 2019-12-14 Luca Sartore <drwolf85@gmail.com>
     * DESCRIPTION (Version): New version is 0.0.3
     * DESCRIPTION (Date): New date is 2019-12-14

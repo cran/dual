@@ -7,14 +7,19 @@ Maintainer: [Luca Sartore](mailto://drwolf85@gmail.com)
 
 [![CRAN version](https://www.r-pkg.org/badges/version/dual)](https://cran.r-project.org/package=dual)
 [![CRAN release](https://www.r-pkg.org/badges/ago/dual)](https://cran.r-project.org/package=dual)
-[![GPLv3 license](https://img.shields.io/badge/License-GPLv3-yellow.svg)](http://perso.crans.org/besson/LICENSE.html)
+[![GPLv3 license](https://img.shields.io/badge/License-GPLv3-yellow.svg)](https://perso.crans.org/besson/LICENSE.html)
 [![CRAN RStudio mirror downloads](https://cranlogs.r-pkg.org/badges/dual)](https://www.r-pkg.org/pkg/dual)
 [![Total Downloads from CRAN RStudio mirror](https://cranlogs.r-pkg.org/badges/grand-total/dual?color=orange)](https://CRAN.R-project.org/package=dual)
 
 ## Features of the package
-Dual numbers are mainly used to implement automatic differentiation. The **dual** package provides mathematical functions that are able to handle computations with dual numbers. The package is useful to calculate exact derivatives in R without providing self-coded functions.
+Dual numbers are mainly used to implement automatic differentiation. The 
+**dual** package provides mathematical functions that are able to handle 
+computations with dual numbers. The package is useful to calculate exact 
+derivatives in R without providing self-coded functions.
 
-For a complete list of exported functions, use `library(help = "dual")` once the **dual** package is installed (see the `inst/INSTALL.md` file for a detailed description of the setup process).
+For a complete list of exported functions, use `library(help = "dual")` 
+once the **dual** package is installed (see the `inst/INSTALL.md` file 
+for a detailed description of the setup process).
 
 ### Example
 ```R

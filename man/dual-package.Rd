@@ -6,15 +6,15 @@
 \alias{dual-package}
 \title{Automatic Differentiation with Dual Numbers}
 \description{
-\if{html}{\figure{logo.svg}{options: align='right'}}
+\if{html}{\figure{logo.svg}{options: style='text-align:right;'}}
 This package provides mathematical functions that are able to handle computations with dual numbers. Dual numbers are mainly used to implement automatic differentiation. The package is useful to calculate exact derivatives in R without providing hand-coded gradient functions.  Kisil (2007) <arXiv:0707.4024>
 }
 \details{
 \tabular{ll}{
 Package: \tab dual\cr
 Type: \tab Package\cr
-Version: \tab 0.0.3\cr
-Date: \tab 2019-12-14\cr
+Version: \tab 0.0.4\cr
+Date: \tab 2022-08-31\cr
 License: \tab GPL-3\cr
 }
 

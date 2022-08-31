@@ -1,6 +1,6 @@
 1ebbd3e34237af26da5dc08a4e440464 *COPYING
-10585b03a59930c648a682ada9df10fb *ChangeLog
-d81155ff7151f4bef43ed0491bfc0fbb *DESCRIPTION
+98fddca04c4ea0c6371a79f35af7be31 *ChangeLog
+17910f19e660167cfcc7bdfd3ce044d4 *DESCRIPTION
 9ac272ee90a3a3c216a6062042c8dff3 *NAMESPACE
 0f613c044668b82bfc300fe2f5398e41 *R/0_dual-class.R
 762361dbce9a7be2c4125d55f1ba57d9 *R/0_dual_vec-class.R
@@ -12,7 +12,7 @@ e6f2f6de14fa885eac8813faf16dadc9 *R/Error.R
 c7d2550ed2c0739cc8e509a3241d1157 *R/Trig.R
 c4d7f7255c9a27624cc20e55ee713641 *R/dual-pkg.R
 b2c4a5b24ab297cea6b39f8dc3ede044 *R/log.R
-1163423e617ba1e81f18b7e544fa20eb *README.md
+4d5afd31a18bcee7411c17b6d8b9461f *README.md
 d1142d48ffce12ce236af1bf3ea14d13 *cleanup
 2965e5f959b0c7b40b95858b2b7dd060 *inst/INSTALL.md
 949c92a9f4530419190ef8cf83aadf36 *man/Arithmetic.Rd
@@ -22,6 +22,6 @@ b7ea4c52376d374faed738d11f72148f *man/Error.Rd
 5cef4f14b9f8b6f9ddd043866546275e *man/Special.Rd
 6bef57831f39447ab9b07552b886118d *man/Trig.Rd
 1f352f22daf323c5845747922a023e5d *man/dual-class.Rd
-306a83f112591d94410a1192e7c4c960 *man/dual-package.Rd
+1602369067faaaf4672d413b1ef3e442 *man/dual-package.Rd
 2720f4bff54807e0867faae08131d6c5 *man/figures/logo.svg
 0834052f01552ef238d1828f54607661 *man/log.Rd
