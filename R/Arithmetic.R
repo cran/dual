@@ -214,7 +214,7 @@ setMethod("/",
             if (length(e1) > 1L) warning("Only the first element will be used")
             ie2 <- 1.0 / e2@f
             anf <- e1[1L] * ie2
-            ans <- dual(f = anf, grad = anf * ie2 * e2@grad)
+            ans <- dual(f = anf, grad = -anf * ie2 * e2@grad)
             return(ans)
           }
 )

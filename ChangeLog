@@ -1,3 +1,20 @@
+2023-09-20 Luca Sartore <drwolf85@gmail.com>
+    * DESCRIPTION (Version): New version is 0.0.5
+    * DESCRIPTION (Date): New date is 2022-09-02
+    * man/dual-package.Rd: Edited the version number, date and HTML5 
+        features
+    * dual-pkg.R: Edited roxygen `Title` and `Description` fields in
+        the documentation of the package. The roxygen field
+        `useDynLib` has been included too
+    * src/dual.c: Included C interface with R to speed-up the
+        computations required for derivatives of special functions
+    * src/bessel.c: Included source code of particular Taylor series
+        approximations used by the derivatives of Bessel functions
+    * R/Arithmetic.R (line 217): Fixing signs in division method (bug
+        reported by Philip Schuster)
+    * R/Logic.R: Included methods for comparing dual numbers
+    * README.md: Fixed another broken url
+
 2022-08-31 Luca Sartore <drwolf85@gmail.com>
     * DESCRIPTION (Version): New version is 0.0.4
     * DESCRIPTION (Date): New date is 2022-08-31
@@ -8,7 +25,7 @@
 2019-12-14 Luca Sartore <drwolf85@gmail.com>
     * DESCRIPTION (Version): New version is 0.0.3
     * DESCRIPTION (Date): New date is 2019-12-14
-    * DESCRIPTION (Description): Included a reference to expalin the 
+    * DESCRIPTION (Description): Included a reference to expalin the
         methodology implemented in the package
     * README.md: Fixed a broken url
     * COPYING: Included the full text of the GPL-3 license

@@ -35,7 +35,7 @@
 #' erfcinv(x)
 #' 
 #' @rdname Error
-#' @export
+#' @export erf
 erf <- function(x) UseMethod("erf", x)
 
 #' @rdname Error
@@ -50,7 +50,7 @@ setMethod("erf",
           })
 
 #' @rdname Error
-#' @export
+#' @export erfinv
 erfinv <- function(x) UseMethod("erfinv", x)
 
 #' @rdname Error
@@ -66,7 +66,7 @@ setMethod("erfinv",
           })
 
 #' @rdname Error
-#' @export
+#' @export erfc
 erfc <- function(x) UseMethod("erfc", x)
 
 #' @rdname Error
@@ -81,7 +81,7 @@ setMethod("erfc",
           })
 
 #' @rdname Error
-#' @export
+#' @export erfcinv
 erfcinv <- function(x) UseMethod("erfcinv", x)
 
 #' @rdname Error

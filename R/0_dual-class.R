@@ -28,7 +28,7 @@ setMethod("initialize", "dual",
 #' @return an object of the class \code{dual}.
 #' @examples
 #' x <- dual(3, 0:1)
-#' @export
+#' @export dual
 dual <- function(f, grad) new("dual", f = f, grad = grad)
 
 #' @rdname dual-class
@@ -42,7 +42,7 @@ dual <- function(f, grad) new("dual", f = f, grad = grad)
 #' x <- new("dual", f = 1, grad = 1)
 #' is.dual(3)
 #' is.dual(x)
-#' @export
+#' @export is.dual
 "is.dual" <- function(x) {
   methods::is(x, "dual")
 }
